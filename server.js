@@ -95,7 +95,11 @@ app.post("/scraper", function(req,res) {
           .attr("href");
 
         //Adds articles to the mongodb
-        db.article.create(result)
+        db.article.update(result,
+          {
+            upsert: true
+          }
+          )
           .then(function (dbarticle) {
             console.log(dbarticle);
           })

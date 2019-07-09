@@ -6,6 +6,8 @@ $("#web-scraper").on("click", function () {
     $.post("/scraper")
         //After the post is made, a visual display is made to show when data is retrived
         .then(function (data) {
+            $("#scraper-status").empty();
+            $("#scraper-status").html("Looking for new articles...")
             setTimeout(function () {
                 $("#scraper-status").html("Scrape Complete");
                 $("#scraper-redirect").html("Check out new articles here:");
