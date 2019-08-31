@@ -78,11 +78,10 @@ app.post("/articles/:id", function(req, res) {
 
 // Post method that scrapes the webpage for article titles
 app.post("/scraper", function(req,res) {
-    axios.get("https://www.danielstechblog.io/")
+    axios.get("https://techcrunch.com/")
     .then(function (response) {
       var $ = cheerio.load(response.data);
-
-      $(".entry-title").each(function (i, element) {
+      $(".post-block__title").each(function (i, element) {
         // Save an empty result object
         var result = {};
 
@@ -95,11 +94,7 @@ app.post("/scraper", function(req,res) {
           .attr("href");
 
         //Adds articles to the mongodb
-        db.article.update(result,
-          {
-            upsert: true
-          }
-          )
+        db.article.create(result)
           .then(function (dbarticle) {
             console.log(dbarticle);
           })
