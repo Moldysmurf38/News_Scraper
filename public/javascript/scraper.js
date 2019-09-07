@@ -14,7 +14,7 @@ $("#web-scraper").on("click", function () {
                 artLink.attr("href", "/articles");
                 $("#article-link").append(artLink);
                 $(".article-link").html("Click Here");
-            }, 7000);
+            }, 5000);
         });
 });
 $.getJSON("/api/articles", function (data) {
