@@ -28,6 +28,7 @@ Add a better commenting system
 
 ### **Built With:**
 
+tech crunch: https://techcrunch.com/ <br/>
 mongo db: https://www.mongodb.com/ <br/>
 dotenv : https://www.npmjs.com/package/dotenv <br/>
 express: https://www.npmjs.com/package/express <br/>
@@ -35,7 +36,8 @@ express handlebars: https://www.npmjs.com/package/express-handlebars <br/>
 mongoose: https://www.npmjs.com/package/mongoose <br/>
 axios: https://www.npmjs.com/package/axios <br/>
 cheerio: https://www.npmjs.com/package/cheerio <br/>
-path: https://www.npmjs.com/package/path
+path: https://www.npmjs.com/package/path <br/>
+article list background image: https://unsplash.com/@waldemarbrandt67w<br/>
 
 ### **Author(s):**
 
