@@ -8,8 +8,10 @@ body {
     height:100%;
 }
 h1 {
+    font-size: 60px;
     text-align: center;
     padding: 2%;
+    border-bottom: 2px solid rgb(150, 150, 150);
 }
 h2 {
     border-bottom: 2px solid rgb(150, 150, 150);
@@ -35,9 +37,12 @@ h4 {
 #article-page {
     background-image: url("../images/newspaper_stack.jpg");
 }
-.article-page-title {
-    font-size: 60px;
-    border-bottom: 2px solid rgb(150, 150, 150);
+#title-page {
+    background-image: url("../images/typeset_keys.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .article-title {
     word-wrap: break-word;

@@ -37,6 +37,7 @@ mongoose: https://www.npmjs.com/package/mongoose <br/>
 axios: https://www.npmjs.com/package/axios <br/>
 cheerio: https://www.npmjs.com/package/cheerio <br/>
 path: https://www.npmjs.com/package/path <br/>
+main page images: https://unsplash.com/@raphaelphotoch <br/>
 article list background image: https://unsplash.com/@waldemarbrandt67w<br/>
 scraper page background image: https://unsplash.com/@hannahmgibbs
 
