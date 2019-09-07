@@ -19,7 +19,7 @@ $("#web-scraper").on("click", function () {
 });
 $.getJSON("/api/articles", function (data) {
     for (var x = 0; x < data.length; x++) {
-        $("#article-list").append("<div data-id='" + data[x]._id + "' class='article-title'>" + "<p>" + data[x].title + "</p>" + "<a class='"+data[x].id+"' href= " + data[x].link + " target=_blank> </a>" + "</div>")
+        $("#article-list").append("<div data-id='" + data[x]._id + "' class='article-title'>" + "<p class='article-text'>" + data[x].title + "</p>" + "<a class='"+data[x].id+ "' href= " + data[x].link + " target=_blank> </a>" + "</div>")
         $("."+data[x].id).text("Check out the article here.");
         $("."+data[x].id).removeClass();
     };

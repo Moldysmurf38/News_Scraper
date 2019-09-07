@@ -5,10 +5,15 @@ body {
 .content-container {
     background: rgb(255, 255, 255);
     border-radius: 2px;
+    height:100%;
 }
 h1 {
     text-align: center;
     padding: 2%;
+}
+h2 {
+    border-bottom: 2px solid rgb(150, 150, 150);
+    margin-bottom: 6%;
 }
 h4 {
     text-align: center;
@@ -28,7 +33,7 @@ h4 {
     font-size: 18px;
 }
 #article-page {
-    background-image: url("../images/newspaper_stack.jpg")
+    background-image: url("../images/newspaper_stack.jpg");
 }
 .article-page-title {
     font-size: 60px;
@@ -38,10 +43,30 @@ h4 {
     word-wrap: break-word;
     border: 2px solid rgb(150, 150, 150);
     padding: 2%;
-    margin-bottom: .5%;
+    margin-bottom: 2%;
+}
+.article-text {
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+.link-div {
+    margin-top: -10%;
 }
 .btn-secondary:hover {
     background: rgb(255, 255, 255);
     color: rgb(90, 98, 104);
     border: 1px solid rgb(90, 98, 104);
+}
+#scraper-page {
+    background-image: url("../images/print_press.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#scraper-title {
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+.scrape-container {
+    min-height: 50vh;
 }

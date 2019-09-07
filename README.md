@@ -38,6 +38,7 @@ axios: https://www.npmjs.com/package/axios <br/>
 cheerio: https://www.npmjs.com/package/cheerio <br/>
 path: https://www.npmjs.com/package/path <br/>
 article list background image: https://unsplash.com/@waldemarbrandt67w<br/>
+scraper page background image: https://unsplash.com/@hannahmgibbs
 
 ### **Author(s):**
 
